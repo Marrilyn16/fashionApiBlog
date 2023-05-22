@@ -1,0 +1,1 @@
+package com.example.api.DTO;import com.example.api.Entity.Post;import com.example.api.Entity.User;import lombok.AllArgsConstructor;import lombok.Builder;import lombok.Data;import lombok.NoArgsConstructor;@Data@Builder@AllArgsConstructor@NoArgsConstructorpublic class LikeRequestDto {    private Boolean likes;    private User user;    private Post post;}

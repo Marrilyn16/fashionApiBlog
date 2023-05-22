@@ -1,0 +1,1 @@
+package com.example.api.Services;import com.example.api.DTO.CommentDTO;public interface CommentService {    CommentDTO commentCreated(CommentDTO commentDTO, Long id, String email);    CommentDTO deleteComment(Long id);}

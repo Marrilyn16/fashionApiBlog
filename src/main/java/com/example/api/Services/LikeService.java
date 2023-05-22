@@ -1,0 +1,1 @@
+package com.example.api.Services;import com.example.api.DTO.LikeRequestDto;import com.example.api.Entity.Likes;import jakarta.servlet.http.HttpSession;import java.util.List;public interface LikeService {    LikeRequestDto likes(Long id,LikeRequestDto likeRequestDto,String email);}
